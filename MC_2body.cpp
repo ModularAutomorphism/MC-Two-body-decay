@@ -286,7 +286,7 @@ void charged_pion_decay_simulator(int N){ //N is number of pions simulated
 
 int main(){
     cout << "Simulation in Progress-------------------------------" << endl;
-    charged_pion_decay_simulator(10000); // !! SIMULATE AT LEAST 10000 PIONS TO PREVENT SEGMENTATION FAULT !! 
+    charged_pion_decay_simulator(1000000); // !! SIMULATE AT LEAST 10000 PIONS TO PREVENT SEGMENTATION FAULT !! 
     cout << "Data written in corresponding .csv files." << endl;
     cout << "End of Simulation------------------------------------" << endl;
     return 0;
