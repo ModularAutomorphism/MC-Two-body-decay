@@ -1,5 +1,5 @@
 # Simulating Two Body Decay process with two decay channels 
-## Decay considered: Charged muon decay to muon + muon-antineutrino and electron (or positron) + electron-antineutrino
+## Decay considered: Charged pion decay to muon + muon-antineutrino and electron (or positron) + electron-antineutrino
 
 ### C++ file for decay simulation
 The function charged_pion_decay_simulator(int N) takes input the number of pions "N" to decay. By default the code file has N = 1000000. \
